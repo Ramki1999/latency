@@ -21,7 +21,10 @@ UPLOAD SPEED
 Sending data packets to a server for 20s and increasing the size of the packets periodically, we can calculate the upload speed by averaging all the upload speeds.
 
 Servers - 3rd Party
+
 uploadServer = 'http://ipv4.ikoula.testdebit.info/'
+
+downloadServer = 'http://speedtest.tele2.net/1MB.zip'
 
 
 ## Getting Started
