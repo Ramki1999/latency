@@ -1,16 +1,32 @@
 # latency
 
-A new Flutter application.
+A network speed test application built on flutter and network speed test package ( 3rd party application).
+
+![Output demo](caption.PNG)
+
+## phone
+<img src="phone.gif" width="250" height="500"/> 
+
+## tablet
+<img src="tablet.gif" width="700" height="450"/>
+
+## How does it work
+
+![Output](how.PNG)
+
+DOWNLOAD SPEED
+Receiving data packets from a server for 20s and increasing the size of the packets periodically, we can calculate the download speed by averaging all the download speeds.
+
+UPLOAD SPEED
+Sending data packets to a server for 20s and increasing the size of the packets periodically, we can calculate the upload speed by averaging all the upload speeds.
+
+Servers - 3rd Party
+uploadServer = 'http://ipv4.ikoula.testdebit.info/'
+
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone the files and run the following command
+```
+flutter pub get
+flutter run
+```
