@@ -1,4 +1,4 @@
-# latency
+# Latency
 
 A network speed test application built on flutter and network speed test package ( 3rd party application).
 
